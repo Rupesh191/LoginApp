@@ -1,3 +1,5 @@
+const { assertArrayTypeAnnotation } = require("babel-types");
+
 (
     function () {
         'use strict';
@@ -38,3 +40,5 @@
           console.clear();
         }
     })();
+
+    assertArrayTypeAnnotation
