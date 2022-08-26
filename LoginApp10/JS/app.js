@@ -40,5 +40,3 @@ const { assertArrayTypeAnnotation } = require("babel-types");
           console.clear();
         }
     })();
-
-    assertArrayTypeAnnotation
